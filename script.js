@@ -1,12 +1,12 @@
-let name = prompt ('Sizning ismingiz?')
+let isim = prompt ('Sizning ismingiz?')
+while (!isNaN(isim)) {
+    name = +prompt('Sizning ismingiz?')
+}
+console.log('Ismingiz:' + isim);
 let age = +prompt ('Sizning yoshingiz?')
 while (isNaN(age)) {
     age = +prompt('Sizning yoshingiz?')
 }
-while (!isNaN(name)) {
-    name = +prompt('Sizning ismingiz?')
-}
-console.log('Ismingiz:' + name);
 console.log('Yoshingiz:' + age);
 
 let misol = prompt("5+5=?")
